@@ -1,7 +1,7 @@
 module.exports = [
    {
     title: 'Array-1',
-    name: 'firstLast6a',
+    name: 'findSum',
     inputs: [
       '([1, 2, 6])',
       '([6, 1, 2, 3])',
@@ -17,8 +17,7 @@ module.exports = [
       '([1, 2, 3, 4, 6])',
       '([1, 2, 3, 4])',
     ],
-    question: `Given an array of ints, return true if 6 appears as either the first or
-    last element in the array. The array will be length 1 or more.`,
+    question: `Find the sum of nums.`,
   }, {
     title: 'Array-1',
     name: 'firstLast6',
@@ -467,7 +466,7 @@ module.exports = [
       "([2])",
       "([2, 5, -12])",
     ],
-    
+
     question: `Return the index of the minimum value in an array. The input array will have at
      least one element in it.`
   },
@@ -484,7 +483,7 @@ module.exports = [
       "([2])",
       "([2, 5, 12])",
     ],
-    
+
     question: `Return the number of even ints in the given array. Note: the % "mod"
     operator computes the remainder, e.g. 5 % 2 is 1.`
   },
@@ -678,7 +677,7 @@ module.exports = [
       "([-2, 2, -2, 2])",
       "([5, 4, 3, 2, 1, 0])",
     ],
-    
+
     question: `Return a modified version of the input array (nums), where the first two items have been removed
     and one item – the sum of those two items - is added to the start of the array.`
   },
@@ -914,10 +913,10 @@ module.exports = [
       "([2, 10, 15, 13])",
       "([2, 5, -12])",
     ],
-    
+
     question: `Write a method that returns the median value of an array. The input array will never be empty.
     \nIf the array is odd in length, the median is the value in the centre of the array.\
-    \nIf the array is even, the median should be the average of the two middle values. \n 
+    \nIf the array is even, the median should be the average of the two middle values. \n
     Hint: You will need to ensure the input array is sorted - there is a sort() array method you can use for this step.`
   },
   {
@@ -1381,4 +1380,3 @@ module.exports = [
 ] },
 
 ];
-
