@@ -1,7 +1,7 @@
 module.exports = [
    {
     title: 'Array-1',
-    name: 'firstLast6',
+    name: 'firstLast6a',
     inputs: [
       '([1, 2, 6])',
       '([6, 1, 2, 3])',
