@@ -2,7 +2,10 @@
 // Array-1
 
 let solutions = {};
-
+solutions.firstLast6a = function (nums) {
+    let end = nums.length - 1;
+    return nums[0] == 6 || nums[end] == 6;
+  }
 solutions.firstLast6 = function (nums) {
     let end = nums.length - 1;
     return nums[0] == 6 || nums[end] == 6;
